@@ -1,8 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My UnitTesting</string>
-    <string name="login">Log in</string>
     <string name="enter_your_password">Enter your Password</string>
     <string name="enter_your_mobile_no">Enter your Mobile No.</string>
     <string name="login_screen">Login Screen</string>
-    <string name="remember_me">I have read and agree to the terms of service</string>
 </resources>
