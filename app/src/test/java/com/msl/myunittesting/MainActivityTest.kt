@@ -1,5 +1,8 @@
 package com.msl.myunittesting
 
+
+
+import org.junit.Assert.*
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -19,6 +22,7 @@ class MainActivityTest {
         val user_mobile =""
         val assert = LoginUtils.validation(user_mobile,"123456789", true)
         assert(assert == "Please enter a your phone number.")
+        /*assertEquals(true,assert)*/
     }
     @Test
     fun user_mobile_length(){
